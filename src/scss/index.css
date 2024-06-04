@@ -303,7 +303,7 @@ img {
   position: relative;
   z-index: 2;
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
 }
 .App .home .homeslider .item img {
   width: 100%;
