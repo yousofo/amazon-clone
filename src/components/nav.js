@@ -1,9 +1,9 @@
-import { useContext, useState } from "react";
+import { useContext } from "react";
 import logo1 from "../media/amazon3-removebg-preview-removebg-preview.png";
 import { Link } from "react-router-dom";
 import { userData } from "../App";
 function Nav() {
-  let {data, setData} = useContext(userData)
+  let {data} = useContext(userData)
   return (
     <div id="nav" className="nav">
       <div className="up">

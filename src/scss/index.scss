@@ -67,7 +67,7 @@ $itemBG1: rgb(247, 247, 247);
 .App {
   width: 100%;
   margin: auto;
-  background-color: #E3E6E6;
+  background-color: #e3e6e6;
   .nav {
     > .up {
       display: flex;
@@ -139,7 +139,7 @@ $itemBG1: rgb(247, 247, 247);
       #lang {
         height: 100%;
         display: flex;
-        align-items: end;
+        align-items: flex-end;
         margin-bottom: 10px;
         gap: 2px;
         font-weight: 600;
@@ -280,7 +280,7 @@ $itemBG1: rgb(247, 247, 247);
       justify-content: space-between;
       align-items: center;
       color: white;
-      font-size: .95rem;
+      font-size: 0.95rem;
       font-weight: 500;
       > .box {
         display: flex;
@@ -297,7 +297,7 @@ $itemBG1: rgb(247, 247, 247);
     padding-top: 40vh;
     margin: 0 auto;
     position: relative;
-    background-color: #E3E6E6;
+    background-color: #e3e6e6;
     .homeslider {
       position: absolute;
       left: 50%;
@@ -324,11 +324,7 @@ $itemBG1: rgb(247, 247, 247);
         bottom: 0%;
         left: 0;
         z-index: 1;
-        background: linear-gradient(
-          to bottom,
-          #e3e6e600,
-          #E3E6E6 50%
-        );
+        background: linear-gradient(to bottom, #e3e6e600, #e3e6e6 50%);
       }
     }
     .offers {

@@ -6,6 +6,7 @@ import { userData } from "../App";
 export default function Login() {
   const navigate = useNavigate();
   const { data, setData } = useContext(userData);
+  console.log(data)
   useEffect(() => {}, []);
   function login() {
     axios
